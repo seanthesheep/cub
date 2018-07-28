@@ -1,0 +1,29 @@
+#cubButton {
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    padding: 10px 15px 10px 15px;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.primary{
+    background-color: #3F51B5;
+    color: #fff;
+}
+.secondary{
+    background-color: #0097A7;
+    color: #fff;
+}
+.dark {
+  background-color: #212121;
+  color: #fff;
+}
+.normal{
+    background: #BDBDBD;
+    color: #222;
+}
