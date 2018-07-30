@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "tag": "cub-button",
+      "dependencies": [],
+      "componentClass": "CubButton",
+      "componentPath": "components/cub-button/cub-button.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/cub-button/cub-button.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "color",
+          "type": "String",
+          "attr": "color"
+        }
+      ],
+      "shadow": true
+    },
+    {
+      "tag": "cub-card",
+      "dependencies": [],
+      "componentClass": "CubCard",
+      "componentPath": "components/cub-card/cub-card.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/cub-card/cub-card.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "padding",
+          "type": "Boolean",
+          "attr": "padding"
+        }
+      ],
+      "shadow": true
+    },
+    {
+      "tag": "cub-content",
+      "dependencies": [],
+      "componentClass": "CubContent",
+      "componentPath": "components/cub-content/cub-content.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/cub-content/cub-content.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "padding",
+          "type": "Boolean",
+          "attr": "padding"
+        }
+      ],
+      "shadow": true
+    },
+    {
+      "tag": "cub-fab",
+      "dependencies": [],
+      "componentClass": "CubFab",
+      "componentPath": "components/cub-fab/cub-fab.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/cub-fab/cub-fab.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "color",
+          "type": "String",
+          "attr": "color"
+        }
+      ],
+      "shadow": true
+    },
+    {
+      "tag": "cub-header",
+      "dependencies": [],
+      "componentClass": "CubHeader",
+      "componentPath": "components/cub-header/cub-header.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/cub-header/cub-header.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "color",
+          "type": "String",
+          "attr": "color"
+        },
+        {
+          "name": "fixed",
+          "type": "Boolean",
+          "attr": "fixed"
+        }
+      ],
+      "shadow": true
+    },
+    {
+      "tag": "cub-sidenav",
+      "dependencies": [],
+      "componentClass": "CubSideNav",
+      "componentPath": "components/cub-sidenav/cub-sidenav.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/cub-sidenav/cub-sidenav.css"
+          ]
+        }
+      },
+      "shadow": true
+    },
+    {
+      "tag": "cub-title",
+      "dependencies": [],
+      "componentClass": "CubTitle",
+      "componentPath": "components/cub-title/cub-title.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/cub-title/cub-title.css"
+          ]
+        }
+      },
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.10.0",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

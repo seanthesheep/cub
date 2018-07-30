@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/mycomponent.js"></script>
+
+  <style>
+  * {
+    box-sizing: border-box; }
+
+  html, body {
+    padding: 0 ;
+    margin: 0 ;
+    height: 100%;
+    width: 100%;
+    font-family: 'Helvetica', 'Verdana', sans-serif;
+    font-weight: 400;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+  /* body {
+    margin: 0;
+    padding: 0;
+ } */
+  </style>
+
+</head>
+<body>
+
+  <cub-header color="secondary" fixed="true">
+    <cub-title>Title</cub-title>
+    <cub-sidenav>
+      <a href="#">test</a>
+    </cub-sidenav>
+  </cub-header>
+  <cub-content padding>
+    <h1>heading</h1>
+    <p>paragraph</p>
+    <p>another paragraph</p>
+    <p>another heading</p>
+    <cub-card padding>
+      <p>a card with some padding</p>
+      <p>Mollitia nesciunt voluptatem provident est facilis nihil. Odit ullam maiores sit libero numquam optio. Debitis consequatur non est praesentium. At ut voluptatem earum. Corrupti voluptas voluptatem harum ratione sit voluptatibus eveniet. Quia et ab corrupti porro sint quibusdam commodi.</p>
+      <cub-button color="primary">
+          Button
+      </cub-button>
+    </cub-card>
+    <cub-button color="secondary">
+        Button 2
+    </cub-button>
+    <cub-button color="dark" id=customId>
+      custom id
+    </cub-button>
+    <cub-fab color="primary"></cub-fab>
+  </cub-content>
+
+  <script>
+    (function(){
+      var el = document.getElementById('customId');
+      el.addEventListener('click', function(){
+        alert('hell0')
+      })
+    })();
+  </script>
+
+</body>
+</html>

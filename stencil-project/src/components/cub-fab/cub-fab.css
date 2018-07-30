@@ -1,0 +1,33 @@
+#cubFab:before {
+    content: "+";
+    box-shadow:0px 0px 3px rgba(0,0,0,0.5),3px 3px 3px rgba(0,0,0,0.25);
+	width: 62px;
+	height: 62px;
+	border-radius: 50%;
+    cursor: pointer;
+	text-align:center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+    margin: 6%;
+	display: inline-block;
+    padding-top: inherit;
+font-size: 3.2em;
+}
+
+.primary:before {
+    background: #3F51B5;
+    color: #fff;
+}
+.secondary:before {
+    background: #0097A7;
+    color: #fff;
+}
+.dark:before {
+  background: #212121;
+  color: #fff;
+}
+.normal:before {
+    background: #BDBDBD;
+    color: #222;
+}

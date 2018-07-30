@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:t}=window.cub;class e{render(){return t("div",{id:"cubTitle"},t("h1",null,t("slot",null)))}static get is(){return"cub-title"}static get encapsulation(){return"shadow"}static get style(){return"#cubTitle[data-cub-title]{font-weight:400;font-size:.8em;margin:0 0 0 10%;-webkit-flex:1;-ms-flex:1;-webkit-box-flex:1;flex:1;font-family:Arial,Helvetica,sans-serif}"}}export{e as CubTitle};

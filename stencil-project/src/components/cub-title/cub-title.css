@@ -1,0 +1,10 @@
+#cubTitle {
+    font-weight: 400;
+    font-size: .8em;
+    margin: 0;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+    flex: 1; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
