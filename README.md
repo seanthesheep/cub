@@ -20,9 +20,17 @@ primary
 secondary
 dark
 
+ex. `<cub-header color="secondary">`
+
+### Properties
+padding
+
+ex. `<cub-content padding>`
+
 ### Example markup
 
-```<html>
+```
+<html>
   <head>
     <script src="cub/cub.js">
   </head>
