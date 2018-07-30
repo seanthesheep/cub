@@ -22,7 +22,7 @@ dark
 
 ### Example markup
 
-`<html>
+```<html>
   <head>
     <script src="cub/cub.js">
   </head>
@@ -55,4 +55,4 @@ dark
     </cub-content>
   </body>
  </html>
-`
+```
